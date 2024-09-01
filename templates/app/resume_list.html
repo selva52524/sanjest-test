@@ -1,0 +1,6 @@
+<h2>Uploaded Resumes</h2>
+<ul>
+    {% for resume in resumes %}
+        <li>{{ resume.name }} - <a href="{{ resume.gdrive_link }}" target="_blank">View</a></li>
+    {% endfor %}
+</ul>

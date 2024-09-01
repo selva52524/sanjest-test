@@ -1,0 +1,6 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="resume">Upload your resume:</label>
+    <input type="file" name="resume" id="resume" required>
+    <button type="submit">Upload</button>
+</form>
